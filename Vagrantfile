@@ -20,7 +20,7 @@ Vagrant.configure("2") do |config|
     source: "~/ChandanSunny/Vagrant_boxes/LearnVagrant/git_config",
     destination: "~/.gitconfig"
     
-    config.vm.provision "shell", path: "<URL>"
+    config.vm.provision "shell", path: "https://raw.githubusercontent.com/chandansunny/gosalach_vagrant/master/scripts/provision_centos.sh"
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
