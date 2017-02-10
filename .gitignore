@@ -1,0 +1,11 @@
+
+id
+.DS_Store
+*.rdp
+pkg/*
+.vagrant/
+.idea/
+*.pem
+.ruby-version
+*.ps1
+.env
