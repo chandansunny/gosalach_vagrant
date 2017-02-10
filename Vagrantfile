@@ -16,9 +16,9 @@ Vagrant.configure("2") do |config|
 
   config.vbguest.auto_update = false
   
-  config.vm.provision "file",
-    source: "~/ChandanSunny/Vagrant_boxes/LearnVagrant/git_config",
-    destination: "~/.gitconfig"
+  #config.vm.provision "file",
+    #source: "~/ChandanSunny/Vagrant_boxes/LearnVagrant/git_config",
+    #destination: "~/.gitconfig"
     
     config.vm.provision "shell", path: "https://raw.githubusercontent.com/chandansunny/gosalach_vagrant/master/scripts/provision_centos.sh"
   # Disable automatic box update checking. If you disable this, then
