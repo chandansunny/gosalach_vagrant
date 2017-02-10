@@ -1,0 +1,1 @@
+# gosalach_vagrant
